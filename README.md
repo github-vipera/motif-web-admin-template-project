@@ -4,20 +4,20 @@ This is the project starter for the MOTIF Web Admin Console.
 
 ## Installation
 
-1 - Clone this repository:
+<strong>1</strong>. Clone this repository
 
 ```terminal
 git clone  https://github.com/github-vipera/motif-web-admin-template-project.git MyWebAdmin
 ```
 
-2 - Install dependencies
+<strong>2</strong>. Install dependencies
 
 ```terminal
 cd MyWebAdmin
 npm install
 ```
 
-3 - Change Proxy configuration
+<strong>3</strong>. Change Proxy configuration
 
 Open ```proxy.conf.json``` file and change the URL to point to your MOTIF Server instance:
 
@@ -36,7 +36,7 @@ Open ```proxy.conf.json``` file and change the URL to point to your MOTIF Server
   }
 ```
 
-4 - Run 
+<strong>4</strong>. Run
 
 ```terminal
 ng serve
