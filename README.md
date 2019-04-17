@@ -42,7 +42,7 @@ Open ```proxy.conf.json``` file and change the URL to point to your MOTIF Server
 ng serve
 ```
 
-at the end of the procedure go to http://localhost:42000
+Then open http://localhost:42000
 
 
 
