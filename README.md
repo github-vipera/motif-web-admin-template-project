@@ -1,27 +1,52 @@
-# MotifWebAdminTemplateProject
+# Motif Web Admin Template Project
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.0.
+This is the project starter for the MOTIF Web Admin Console.
 
-## Development server
+## Installation
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+1 - Clone this repository:
 
-## Code scaffolding
+```terminal
+git clone  https://github.com/github-vipera/motif-web-admin-template-project.git MyWebAdmin
+```
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+2 - Install dependencies
 
-## Build
+```terminal
+cd MyWebAdmin
+npm install
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+3 - Change Proxy configuration
 
-## Running unit tests
+Open ```proxy.conf.json``` file and change the URL to point to your MOTIF Server instance:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```json
+{
+    "/rest": {
+      "target": "http://my.motif.instance:8080/",
+      "secure": false,
+      "logLevel": "debug"
+    },
+    "/oauth2": {
+      "target": "http://my.motif.instance:8080/",
+      "secure": false,
+      "logLevel": "debug"
+    }
+  }
+```
 
-## Running end-to-end tests
+4 - Run 
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+```terminal
+ng serve
+```
 
-## Further help
+at the end of the procedure go to http://localhost:42000
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+
+
+
+
+
