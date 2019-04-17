@@ -35,8 +35,7 @@
               "projects/motif-web-admin-core/src/assets/style.css",
               "projects/motif-web-admin-core/src/assets/motif_webadmin_iconfont.css"
             ],
-            "scripts": [],
-            "es5BrowserSupport": true
+            "scripts": []
           },
           "configurations": {
             "production": {

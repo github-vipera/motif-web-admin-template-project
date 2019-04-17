@@ -3,7 +3,6 @@ import { WCTopBarService, WCTopBarItem, AuthService, WCTopBarLocation } from 'we
 import { TopMenuComponent, TopInfoComponent, TopLogoComponent } from 'motif-web-admin-core';
 import { WAThemeDesignerService } from 'motif-web-admin-core';
 import { HostListener } from '@angular/core';
-import { EEHook } from './eehook/EEHook';
 
 @Component({
   selector: 'app-root',
@@ -12,7 +11,6 @@ import { EEHook } from './eehook/EEHook';
 })
 export class AppComponent {
 
-  private _eeHook: EEHook = new  EEHook();
 
   title = 'motif-web-admin-core-library-test';
 
