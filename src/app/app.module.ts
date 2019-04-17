@@ -61,7 +61,6 @@ const appRoutes: Routes = [
     HotkeyModule.forRoot({
       cheatSheetCloseEsc: true
     }),
-    EEHookModule,
     LoggerModuleConfigured,
     WebAdminModulesProvider,
     ToolBarModule,
